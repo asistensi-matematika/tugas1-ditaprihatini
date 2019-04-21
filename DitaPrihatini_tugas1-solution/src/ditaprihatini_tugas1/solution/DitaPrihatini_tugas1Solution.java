@@ -37,7 +37,15 @@ public class DitaPrihatini_tugas1Solution {
             System.out.println("Persamaan Polinomial "+a+x+"^2  - "+(-b)+x+" + "+c+" memiliki");
         else if(b>0&&c<0)
             System.out.println("Persamaan Polinomial "+a+x+"^2 + "+b+x+" - "+(-c)+" memiliki");
-        
+        else if (b==0 && c<0)
+            System.out.println("Persamaan Polinomial "+a+x+"^2 + "+b+x+" - "+(-c)+" memiliki");
+        else if (b==0 && c>0)
+            System.out.println("Persamaan Polinomial "+a+x+"^2 + "+b+x+" + "+(c)+" memiliki");
+        else if (c==0 && b<0)
+            System.out.println("Persamaan Polinomial "+a+x+"^2 - "+(-b)+x+" + "+c+" memiliki");
+        else if (c==0 && b>0)
+            System.out.println("Persamaan Polinomial "+a+x+"^2 + "+b+x+" + "+(c)+" memiliki");
+            
         //Formula Soal Pertama
         double D = Math.pow(b,2)-4*a*c;
         
@@ -72,6 +80,7 @@ public class DitaPrihatini_tugas1Solution {
                     System.out.println("2. Akar-akar polinomial = "+(-(b)/(2*a))+" + "+AkarE+"i dan "+(-(b)/(2*a))+" - "+AkarE+"i");
                 }
             }
+            
         //Formula dan Penyelesaian Soal Ketiga
         double absis,ordinat;
         absis = -(b/(2*a));
@@ -86,7 +95,8 @@ public class DitaPrihatini_tugas1Solution {
         }else{
             System.out.println("3. Titik Stasioner      = ("+absis+","+ordinat+")");
         }
-        
+            
+        //Formula dan Penyelesaian Soal Keempat
         if(a>0){
             String ATAS = "4. Kecekungan kurva     = Atas";
             System.out.println(ATAS);
