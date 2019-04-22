@@ -101,7 +101,7 @@ Nilai a tidak boleh nol
 ~~~~
 
 ## screenshot hasil running
-![-230](https://user-images.githubusercontent.com/49512967/56495237-58387f80-651f-11e9-94e8-32329beff609.png)
+![-230fix](https://user-images.githubusercontent.com/49512967/56495398-d3019a80-651f-11e9-938a-78778af08326.png)
 ![1-21](https://user-images.githubusercontent.com/49512967/56495247-6090ba80-651f-11e9-9dd0-79d8737dd7b5.png)
 ![-30-3](https://user-images.githubusercontent.com/49512967/56495250-64244180-651f-11e9-9984-bdc7af4c577c.png)
 ![000](https://user-images.githubusercontent.com/49512967/56495252-671f3200-651f-11e9-8d7e-6b43e95e7c70.png)
